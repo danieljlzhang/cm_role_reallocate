@@ -144,9 +144,9 @@ def get_host_health(host):
 
 if __name__ == '__main__':
     global cmapi, user, password
-    cmapi = 'http://192.168.0.128:7180/api/v49'
-    user = 'admin'
-    password = 'admin'
+    cmapi = 'http://192.168.0.10:7180/api/v49'
+    user = 'your_username'
+    password = 'your_password'
     service = 'impala'
     today = datetime.today().strftime("%Y-%m-%d")
     if not os.path.exists('logs'):
